@@ -1,8 +1,7 @@
-package Main;
-
 import java.util.Scanner;
 
 import package01.Exercicio01;
+import package01.Exercicio02;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -24,6 +23,10 @@ public class Main {
                 case 1:
                     Exercicio01 ex01 = new Exercicio01();
                     ex01.exercicio01();
+                    break;
+                    case 2:
+                    Exercicio02 ex02 = new Exercicio02();
+                    ex02.exercicio02();
                     break;
 
                 default:

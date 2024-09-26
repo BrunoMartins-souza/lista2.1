@@ -1,3 +1,10 @@
+/*
+    Escreva um programa que:
+ • leia 100 fichas, onde cada ficha contém o número de matrícula e a nota de cada aluno de um determinado curso;
+ • determine e imprima as duas maiores notas, juntamente com o número de matrícula do aluno que obteve cada uma delas;
+ • assuma que não exista dois ou mais alunos com a mesma nota; 
+ */
+
 package package01;
 
 import java.util.Scanner;
@@ -36,7 +43,6 @@ public class Exercicio01 {
 
             System.out.println("Aulo com seguna maior nota:");
             System.out.println("Matricula: " + maiorMatricula02 + " - Nota: " + maiorNota02);
-            
         input.close();
     }
 }
