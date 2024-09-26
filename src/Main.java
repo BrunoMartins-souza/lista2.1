@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import package01.Exercicio01;
 import package01.Exercicio02;
+import package01.Exercicio03;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -28,8 +29,13 @@ public class Main {
                     Exercicio02 ex02 = new Exercicio02();
                     ex02.exercicio02();
                     break;
+                case 3:
+                    Exercicio03 ex03 = new Exercicio03();
+                    ex03.exercicio03();
+                    break;
 
                 default:
+                    System.out.println("Opção invalida!");
                     break;
             }
 
