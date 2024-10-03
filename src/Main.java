@@ -33,6 +33,9 @@ public class Main {
                     Exercicio03 ex03 = new Exercicio03();
                     ex03.exercicio03();
                     break;
+                case 4:
+                    System.out.println("Saindo...");
+                    break;
 
                 default:
                     System.out.println("Opção invalida!");
