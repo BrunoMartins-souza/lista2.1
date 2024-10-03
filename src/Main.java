@@ -43,6 +43,5 @@ public class Main {
 
         } while (opc != 4);
 
-        input.close();
     }
 }
